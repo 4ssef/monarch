@@ -1,4 +1,4 @@
 /tests
 *.env
 test.py
-\venv
+/venv
