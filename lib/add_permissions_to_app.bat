@@ -1,8 +1,8 @@
 ::====================================================================
-:: 	Para poder obtener "appId" del JSON que retorna 'az ad app create'
-:: 	en 'register_azure_app.bat', se requiere hacer un parse del mismo,
-:: 	por lo que se optó por crear este segundo .bat donde "appId" se le
-::	envía como parámetro desde 'create_azure_app.py'.
+:: Para poder obtener "appId" del JSON que retorna 'az ad app create'
+:: en 'register_azure_app.bat', se requiere hacer un parse del mismo,
+:: por lo que se optó por crear este segundo .bat donde "appId" se le
+:: envía como parámetro desde 'create_azure_app.py'.
 ::====================================================================
 
 @ECHO OFF
