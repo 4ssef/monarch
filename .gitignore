@@ -1,12 +1,25 @@
+# -----------------------------------------------
 # archivos y directorios relacionados con test y pruebas
+# -----------------------------------------------
 /tests
 test.py
 
+# -----------------------------------------------
 # archivos y directorios relacionados con ambientes virtuales
+# -----------------------------------------------
 *.env
 /venv
 /.venv
 
+# -----------------------------------------------
 # ignora el archivo temporal donde obtiene el
 # client ID de la aplicación nueva creada
+# -----------------------------------------------
 app_details.json
+
+# -----------------------------------------------
+# ignora temporalmente los 3 procesos principales
+# -----------------------------------------------
+create_publisher_account.py
+migrate_report.py
+publish_pbix_files.py
