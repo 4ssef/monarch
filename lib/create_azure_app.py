@@ -24,12 +24,11 @@ from shutil import which
 from dotenv import load_dotenv
 from pathlib import Path
 import json
-from lib.funcs import run_batch
+from funcs import run_batch
 
 load_dotenv()
 
 PROJECT_PATH = Path(__file__).resolve().parent
-LIB_PATH = Path.joinpath(PROJECT_PATH, 'lib')
 
 # verifica si Azure CLI está instalado
 try:
@@ -47,7 +46,7 @@ params = {
 # ---------------------------------------------------------------
 # Registra la aplicación en Azure AD (register_azure_app.bat)
 # ---------------------------------------------------------------
-path_to_batch = Path.joinpath(LIB_PATH, 'register_azure_app.bat')
+path_to_batch = Path.joinpath(PROJECT_PATH, 'register_azure_app.bat')
 run_batch(path_to_batch, params['app_name'])
 
 # ---------------------------------------------------------------
@@ -62,5 +61,5 @@ os.remove('app_details.json')
 # Agrega los permisos de /lib/cons y los concede via administrador
 # a la aplicación registrada en el paso anterior (add_permissions_to_app.bat)
 # ---------------------------------------------------------------
-path_to_batch = Path.joinpath(LIB_PATH, 'add_permissions_to_app.bat')
+path_to_batch = Path.joinpath(PROJECT_PATH, 'add_permissions_to_app.bat')
 run_batch(path_to_batch, client_id)
