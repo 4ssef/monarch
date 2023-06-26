@@ -9,3 +9,5 @@
 3. Crear un Service Principal mediante Azure CLI
 	https://learn.microsoft.com/en-us/cli/azure/ad/sp?view=azure-cli-latest#az-ad-sp-create
 
+4. Paths en batch
+	https://learn.microsoft.com/en-us/windows-server/administration/windows-commands/call#batch-parameters
