@@ -1,4 +1,12 @@
+# archivos y directorios relacionados con test y pruebas
 /tests
-*.env
 test.py
+
+# archivos y directorios relacionados con ambientes virtuales
+*.env
 /venv
+/.venv
+
+# ignora el archivo temporal donde obtiene el
+# client ID de la aplicación nueva creada
+app_details.json

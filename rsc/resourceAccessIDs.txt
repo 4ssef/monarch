@@ -1,0 +1,108 @@
+[
+  {
+    "resourceAccess": [
+      {
+        "id": "e1fe6dd8-ba31-4d61-89e7-88639da4683d",
+        "type": "Scope"
+      },
+      {
+        "id": "b4e74841-8e56-480b-be8b-910348b18b4c",
+        "type": "Scope"
+      }
+    ],
+    "resourceAppId": "00000003-0000-0000-c000-000000000000"
+  },
+  {
+    "resourceAccess": [
+      {
+        "id": "652d7d02-6ff0-4cf7-9516-cf77d33a3ae4",
+        "type": "Scope"
+      },
+      {
+        "id": "199f155b-cccd-4be4-bbe6-ca9a867b24b4",
+        "type": "Scope"
+      },
+      {
+        "id": "dbe6434c-63f0-42bb-be8e-122ec1bad4d2",
+        "type": "Scope"
+      },
+      {
+        "id": "f9759906-80a4-4f4a-b010-24b832bc6a30",
+        "type": "Scope"
+      },
+      {
+        "id": "ddd37690-e119-40c5-a821-3746ea6125c4",
+        "type": "Scope"
+      },
+      {
+        "id": "e677843f-76d8-44d3-bcdb-ec40dea919e7",
+        "type": "Scope"
+      },
+      {
+        "id": "27789c5b-aca8-4cb6-94b8-bcc8964dd8ad",
+        "type": "Scope"
+      },
+      {
+        "id": "8b01a991-5a5a-47f8-91a2-84d6bfd72c02",
+        "type": "Scope"
+      },
+      {
+        "id": "b271f05e-8329-4b97-baa4-91cf15b99cf1",
+        "type": "Scope"
+      },
+      {
+        "id": "2448370f-f988-42cd-909c-6528efd67c1a",
+        "type": "Scope"
+      },
+      {
+        "id": "7f33e027-4039-419b-938e-2f8ca153e68e",
+        "type": "Scope"
+      },
+      {
+        "id": "322b68b2-0804-416e-86a5-d772c567b6e6",
+        "type": "Scope"
+      },
+      {
+        "id": "f3076109-ca66-412a-be10-d4ee1be95d47",
+        "type": "Scope"
+      },
+      {
+        "id": "4ae1bf56-f562-4747-b7bc-2fa0874ed46f",
+        "type": "Scope"
+      },
+      {
+        "id": "7504609f-c495-4c64-8542-686125a5a36f",
+        "type": "Scope"
+      },
+      {
+        "id": "ddb3ca45-a192-477d-acb2-46bf9dc586de",
+        "type": "Scope"
+      },
+      {
+        "id": "d2e42f6b-2baf-4ff4-83ef-51e66321516e",
+        "type": "Scope"
+      },
+      {
+        "id": "445002fb-a6f2-4dc1-a81e-4254a111cd29",
+        "type": "Scope"
+      },
+      {
+        "id": "b2f1b2fa-f35c-407c-979c-a858a808ba85",
+        "type": "Scope"
+      },
+      {
+        "id": "4eabc3d1-b762-40ff-9da5-0e18fdf11230",
+        "type": "Scope"
+      },
+      {
+        "id": "76e2ebd5-0dfb-4a5b-93c7-ed89e0362834",
+        "type": "Scope"
+      },
+      {
+        "id": "b43e1ada-25ee-416f-bd5c-512976ddc74b",
+        "type": "Scope"
+      }
+    ],
+    "resourceAppId": "00000009-0000-0000-c000-000000000000"
+  }
+]
