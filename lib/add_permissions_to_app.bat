@@ -2,7 +2,7 @@
 :: 	Para poder obtener "appId" del JSON que retorna 'az ad app create'
 :: 	en 'register_azure_app.bat', se requiere hacer un parse del mismo,
 :: 	por lo que se optó por crear este segundo .bat donde "appId" se le
-::	envía como parámetro desde 'create_workspace.py'.
+::	envía como parámetro desde 'create_azure_app.py'.
 ::====================================================================
 
 @ECHO OFF
@@ -11,8 +11,8 @@
 SET APP_ID=%1
 SET MS_GRAPH_API_ID=00000003-0000-0000-c000-000000000000
 SET PBI_SERVICE_API_ID=00000009-0000-0000-c000-000000000000
-SET /p MS_GRAPH_ACCESS_IDS=<%~dp0ms_graph_rsc_access_id.txt
-SET /p PBI_SERVICE_ACCESS_IDS=<%~dp0pbi_service_rsc_access_id.txt
+SET /p MS_GRAPH_ACCESS_IDS=<%~dp0cons\ms_graph_rsc_access_id.txt
+SET /p PBI_SERVICE_ACCESS_IDS=<%~dp0cons\pbi_service_rsc_access_id.txt
 
 :: crea el servicio principal para la app
 CALL az ad sp create --id %APP_ID%
